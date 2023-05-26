@@ -1,0 +1,92 @@
+1> Download and Install node js
+
+node --version
+npm -version
+
+
+2> Download and install vs code
+
+https://code.visualstudio.com/download
+
+3>Create a folder in your local and open this through your VS code
+
+4>Go to Terminal and write 
+npm -i init ----> This will create a package.json file 
+
+
+5>In order to install cypress go to terminal and write 
+
+npm install cypress --save -dev
+
+6> In order to see cypress in browser we will write this command in terminal
+
+npx cypress open
+
+7> npx cypress run 
+It will run all the test cases present in your cypress project
+
+8>npx cypress run --headed
+It will run all the test cases present in your cypress project in the browser mode
+
+9>npx cypress run --spec cypress\e2e\Test1Demo.cy.js
+It will run only one single test case in a headless mode
+
+
+10> npx cypress run --spec cypress\e2e\Test1Demo.cy.js --browser chrome
+To run in headless mode in browser 
+
+11>npx cypress run --headed --spec cypress\e2e\Test1Demo.cy.js --browser chrome
+
+
+Understanding my first test script
+---------------------------------------------------------------
+---------------------------------------------------------------
+describe('My first test for Orange HRM Application', () => {
+
+
+  it('To verify the title of the page', () => {
+    cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+    cy.title().should('eq','OrangeHRM')  ///OrangeHRM
+  })
+
+it('To verify the title of the page', () => {
+    cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+    cy.title().should('eq','OrangeHRM')
+  })
+
+it('To verify the title of the page', () => {
+    cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+    cy.title().should('eq','OrangeHRM')
+  })
+})
+
+
+
+There are 2 ways of locating an element through cypress
+
+1> CSS locators
+2> Xpath//xml path 
+
+
+In order to use xpath in the cypress project we have to use the below commands
+
+a>npm install cypress-xpath
+
+b> Go to command.js and write 
+
+/// <reference types="cypress-xpath" />
+
+c>Go to e2e.js and write 
+
+require('cypress-xpath')
+
+
+
+
+
+
+
+
+
+
+

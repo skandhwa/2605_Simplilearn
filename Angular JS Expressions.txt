@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<p> Changing the value of input </p>
+<div ng-app=" " ng-init="my col='pink'">
+<input style="background-color:{{my col}}" ng-model="my col" value="{{my col}}">
+</div>
+<p> This will change when the colour specified is changing</p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+1> Download node
+
+https://nodejs.org/en/download--- for latest version
+
+https://nodejs.org/en/blog/release/v14.17.3--- for version 14
+
+2>Check in CMD that node is installed properly 
+
+node --version 
+
+3> To check whether npm is installed write in cmd
+npm --version 
+
+4>npm install -g @angular/cli
+To install angular JS we will use this 
+
+5>Create a Folder in desktop ,then go to the folder which u have created in the local and open cmd in that location 
+
+6>ng new my-ecommerce-app
+To create a new Angular App
+
+6>Go to VS CODE and open the Project in the VS Code
+
+7> Go to terminal and write "ng serve" to build the project 
+
+8> Open the project in the local host as shown in terminals console
+
+9>ng g c header
+

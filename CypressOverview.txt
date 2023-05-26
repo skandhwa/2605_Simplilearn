@@ -1,0 +1,4 @@
+Cypress is a next gen front end testing tool for testing modern web application 
+Cypress uses JS to automate the test
+Node js package 
+It comes with npm module 
