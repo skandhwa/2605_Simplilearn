@@ -1,0 +1,24 @@
+
+Pre Requisite 
+
+Jenkins is a Java Application so java version 11 is required for the set up .
+
+Uninstall java 8 or elder version
+Download Java Version 11 or higher 
+
+Go to Control Panel ---> Select Java --->Click uninstall
+
+https://www.oracle.com/in/java/technologies/downloads/#java11-windows
+Enter User ID -  saurabhkandhway91@gmail.com	
+Password- Test@1234
+
+
+
+Step 1
+
+https://www.jenkins.io/download/
+
+
+
+
+
